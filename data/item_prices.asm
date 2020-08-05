@@ -9,16 +9,16 @@ ItemPrices:
 	money 1000  ; SAFARI_BALL
 	money 0     ; POKEDEX
 	money 0     ; MOON_STONE
-	money 100   ; ANTIDOTE
-	money 250   ; BURN_HEAL
-	money 250   ; ICE_HEAL
-	money 200   ; AWAKENING
-	money 200   ; PARLYZ_HEAL
-	money 3000  ; FULL_RESTORE
-	money 2500  ; MAX_POTION
-	money 1500  ; HYPER_POTION
-	money 700   ; SUPER_POTION
-	money 300   ; POTION
+	money 200   ; ANTIDOTE
+	money 450   ; BURN_HEAL
+	money 450   ; ICE_HEAL
+	money 400   ; AWAKENING
+	money 400   ; PARLYZ_HEAL
+	money 5000  ; FULL_RESTORE
+	money 4500  ; MAX_POTION
+	money 3000  ; HYPER_POTION
+	money 1000  ; SUPER_POTION
+	money 600   ; POTION
 	money 0     ; BOULDERBADGE
 	money 0     ; CASCADEBADGE
 	money 0     ; THUNDERBADGE
@@ -27,8 +27,8 @@ ItemPrices:
 	money 0     ; MARSHBADGE
 	money 0     ; VOLCANOBADGE
 	money 0     ; EARTHBADGE
-	money 550   ; ESCAPE_ROPE
-	money 350   ; REPEL
+	money 950   ; ESCAPE_ROPE
+	money 750   ; REPEL
 	money 0     ; OLD_AMBER
 	money 2100  ; FIRE_STONE
 	money 2100  ; THUNDER_STONE
@@ -38,7 +38,7 @@ ItemPrices:
 	money 9800  ; IRON
 	money 9800  ; CARBOS
 	money 9800  ; CALCIUM
-	money 4800  ; RARE_CANDY
+	money 9800  ; RARE_CANDY
 	money 0     ; DOME_FOSSIL
 	money 0     ; HELIX_FOSSIL
 	money 0     ; SECRET_KEY
@@ -50,23 +50,23 @@ ItemPrices:
 	money 10000 ; NUGGET
 	money 2100  ; HEART_STONE
 	money 1000  ; POKE_DOLL
-	money 600   ; FULL_HEAL
-	money 1500  ; REVIVE
-	money 4000  ; MAX_REVIVE
+	money 1200  ; FULL_HEAL
+	money 3000  ; REVIVE
+	money 8000  ; MAX_REVIVE
 	money 700   ; GUARD_SPEC
-	money 500   ; SUPER_REPEL
-	money 700   ; MAX_REPEL
+	money 950   ; SUPER_REPEL
+	money 1400  ; MAX_REPEL
 	money 650   ; DIRE_HIT
 	money 10    ; COIN
-	money 200   ; FRESH_WATER
-	money 300   ; SODA_POP
-	money 350   ; LEMONADE
+	money 400   ; FRESH_WATER
+	money 600   ; SODA_POP
+	money 750   ; LEMONADE
 	money 0     ; S_S_TICKET
 	money 0     ; GOLD_TEETH
-	money 500   ; X_ATTACK
-	money 550   ; X_DEFEND
-	money 350   ; X_SPEED
-	money 350   ; X_SPECIAL
+	money 900   ; X_ATTACK
+	money 950   ; X_DEFEND
+	money 950   ; X_SPEED
+	money 950   ; X_SPECIAL
 	money 0     ; COIN_CASE
 	money 0     ; OAKS_PARCEL
 	money 0     ; ITEMFINDER
