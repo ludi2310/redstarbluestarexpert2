@@ -1,27 +1,27 @@
 PlateauMons2:
 	db $0A
 	IF DEF(_RED)
-		db 22,MACHOP
-		db 24,GEODUDE
-		db 26,ZUBAT
-		db 36,ONIX
-		db 39,ONIX
-		db 41,MACHOKE
-		db 43,GRAVELER
-		db 40,GOLBAT
-		db 40,MAROWAK
-		db 43,HITMONCHAN
+		db 44,MACHOKE
+		db 44,GEODUDE
+		db 25,ZUBAT
+		db 44,ONIX
+		db 35,ONIX
+		db 44,MACHOKE
+		db 45,GRAVELER
+		db 46,GOLBAT
+		db 46,MAROWAK
+		db 45,HITMONCHAN
 	ENDC
 	IF DEF(_BLUE)
-		db 22,MACHOP
-		db 24,GEODUDE
-		db 26,ZUBAT
-		db 36,ONIX
-		db 39,ONIX
-		db 41,MACHOKE
-		db 43,GRAVELER
-		db 40,GOLBAT
-		db 40,MAROWAK
-		db 43,HITMONLEE
+		db 44,MACHOKE
+		db 45,GEODUDE
+		db 45,ZUBAT
+		db 45,ONIX
+		db 45,ONIX
+		db 44,MACHOKE
+		db 45,GRAVELER
+		db 45,GOLBAT
+		db 46,MAROWAK
+		db 46,HITMONLEE
 	ENDC
 	db $00
