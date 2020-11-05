@@ -12,10 +12,10 @@ INCBIN "pic/swmon/flareon.pic",0,1 ; 66, sprite dimensions
 dw FlareonPicFront
 dw FlareonPicBack
 ; attacks known at lvl 0
-db TACKLE
-db TAIL_WHIP
+db TOXIC
+db SAND_ATTACK
 db QUICK_ATTACK
-db EMBER
+db FLAMETHROWER
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8
