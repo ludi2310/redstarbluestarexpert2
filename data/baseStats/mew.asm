@@ -13,7 +13,7 @@ INCBIN "pic/swmon/mew.pic",0,1 ; 55, sprite dimensions
 dw MewPicFront
 dw MewPicBack
 ; attacks known at lvl 0
-db POUND
+db SOFTBOILED
 db 0
 db 0
 db 0
