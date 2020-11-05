@@ -1,24 +1,24 @@
 ItemPrices:
 	money 0     ; MASTER_BALL
-	money 1200  ; ULTRA_BALL
-	money 600   ; GREAT_BALL
-	money 200   ; POKE_BALL
+	money 300  ; ULTRA_BALL
+	money 200   ; GREAT_BALL
+	money 100   ; POKE_BALL
 	money 0     ; TOWN_MAP
 	money 0     ; BICYCLE
 	money 0     ; SURFBOARD
 	money 1000  ; SAFARI_BALL
 	money 0     ; POKEDEX
 	money 0     ; MOON_STONE
-	money 200   ; ANTIDOTE
-	money 450   ; BURN_HEAL
-	money 450   ; ICE_HEAL
-	money 400   ; AWAKENING
-	money 400   ; PARLYZ_HEAL
-	money 5000  ; FULL_RESTORE
-	money 4500  ; MAX_POTION
-	money 3000  ; HYPER_POTION
-	money 1000  ; SUPER_POTION
-	money 600   ; POTION
+	money 500   ; ANTIDOTE
+	money 750   ; BURN_HEAL
+	money 750   ; ICE_HEAL
+	money 700   ; AWAKENING
+	money 700   ; PARLYZ_HEAL
+	money 8000  ; FULL_RESTORE
+	money 7500  ; MAX_POTION
+	money 5000  ; HYPER_POTION
+	money 2000  ; SUPER_POTION
+	money 1200   ; POTION
 	money 0     ; BOULDERBADGE
 	money 0     ; CASCADEBADGE
 	money 0     ; THUNDERBADGE
@@ -28,7 +28,7 @@ ItemPrices:
 	money 0     ; VOLCANOBADGE
 	money 0     ; EARTHBADGE
 	money 950   ; ESCAPE_ROPE
-	money 750   ; REPEL
+	money 150   ; REPEL
 	money 0     ; OLD_AMBER
 	money 2100  ; FIRE_STONE
 	money 2100  ; THUNDER_STONE
@@ -54,13 +54,13 @@ ItemPrices:
 	money 3000  ; REVIVE
 	money 8000  ; MAX_REVIVE
 	money 700   ; GUARD_SPEC
-	money 950   ; SUPER_REPEL
-	money 1400  ; MAX_REPEL
+	money 250   ; SUPER_REPEL
+	money 300  ; MAX_REPEL
 	money 650   ; DIRE_HIT
 	money 10    ; COIN
-	money 400   ; FRESH_WATER
-	money 600   ; SODA_POP
-	money 750   ; LEMONADE
+	money 1400   ; FRESH_WATER
+	money 1600   ; SODA_POP
+	money 3050   ; LEMONADE
 	money 0     ; S_S_TICKET
 	money 0     ; GOLD_TEETH
 	money 900   ; X_ATTACK
