@@ -12,10 +12,10 @@ INCBIN "pic/swmon/wigglytuff.pic",0,1 ; 66, sprite dimensions
 dw WigglytuffPicFront
 dw WigglytuffPicBack
 ; attacks known at lvl 0
-db SING
-db DISABLE
+db BLIZZARD
+db THUNDER_WAVE
 db DEFENSE_CURL
-db DOUBLESLAP
+db DIZZY_PUNCH
 db 4 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8
