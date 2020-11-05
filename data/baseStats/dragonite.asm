@@ -13,9 +13,9 @@ dw DragonitePicFront
 dw DragonitePicBack
 ; attacks known at lvl 0
 db WRAP
-db LEER
+db WING_ATTACK
 db THUNDER_WAVE
-db AGILITY
+db EARTHQUAKE
 db 5 ; growth rate
 ; learnset
 	tmlearn 2,6,7,8
