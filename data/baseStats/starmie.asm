@@ -12,9 +12,9 @@ INCBIN "pic/swmon/starmie.pic",0,1 ; 66, sprite dimensions
 dw StarmiePicFront
 dw StarmiePicBack
 ; attacks known at lvl 0
-db TACKLE
-db WATER_GUN
-db HARDEN
+db SURF
+db PSYCHIC_M
+db THUNDER_WAVE
 db 0
 db 5 ; growth rate
 ; learnset
