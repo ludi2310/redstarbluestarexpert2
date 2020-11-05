@@ -12,10 +12,10 @@ INCBIN "pic/swmon/cloyster.pic",0,1 ; 77, sprite dimensions
 dw CloysterPicFront
 dw CloysterPicBack
 ; attacks known at lvl 0
-db WITHDRAW
-db SUPERSONIC
+db EXPLOSION
 db CLAMP
-db AURORA_BEAM
+db SURF
+db ICE_BEAM
 db 5 ; growth rate
 ; learnset
 	tmlearn 6
