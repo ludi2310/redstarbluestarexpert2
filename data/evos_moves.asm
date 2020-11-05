@@ -438,8 +438,8 @@ GyaradosEvosMoves:
 ; Learnset
 	db 20, BODY_SLAM
 	db 25, DRAGON_RAGE
-	db 32, WATERFALL
-	db 41, HYDRO_PUMP
+	db 32, HYDRO_PUMP
+	db 41, THUNDERBOLT
 	db 52, HYPER_BEAM
 	db 0
 
@@ -773,9 +773,9 @@ MagmarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 36, LEER
+	db 36, FIRE_PUNCH
 	db 39, CONFUSE_RAY
-	db 43, FIRE_PUNCH
+	db 43, BODY_SLAM
 	db 48, SMOKESCREEN
 	db 52, THUNDERPUNCH
 	db 55, FLAMETHROWER
@@ -874,7 +874,7 @@ TaurosEvosMoves:
 	db 28, AGILITY
 	db 35, BODY_SLAM
 	db 44, SWORDS_DANCE
-	db 51, DOUBLE_EDGE
+	db 51, EARTHQUAKE
 	db 0
 
 MissingNo3DEvosMoves:
