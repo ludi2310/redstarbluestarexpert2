@@ -12,8 +12,8 @@ INCBIN "pic/swmon/raichu.pic",0,1 ; 77, sprite dimensions
 dw RaichuPicFront
 dw RaichuPicBack
 ; attacks known at lvl 0
-db THUNDERSHOCK
-db GROWL
+db THUNDERBOLT
+db SURF
 db THUNDER_WAVE
 db 0
 db 0 ; growth rate
