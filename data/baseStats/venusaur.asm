@@ -12,10 +12,10 @@ INCBIN "pic/swmon/venusaur.pic",0,1 ; 77, sprite dimensions
 dw VenusaurPicFront
 dw VenusaurPicBack
 ; attacks known at lvl 0
-db TACKLE
-db GROWL
+db SWORDS_DANCE
+db RAZOR_LEAF
 db LEECH_SEED
-db VINE_WHIP
+db BODY_SLAM
 db 3 ; growth rate
 ; learnset
 	tmlearn 3,6,8
