@@ -1,10 +1,10 @@
 Route2Mons:
 	db $19
-	db 3,RATTATA
-	db 3,PIDGEY
-	db 4,PIDGEY
-	db 4,RATTATA
-	db 5,PIDGEY
+	db 6,RATTATA
+	db 6,PIDGEY
+	db 6,PIDGEY
+	db 10,RATICATE
+	db 7,PIDGEY
 	IF DEF(_RED)
 		db 3,WEEDLE
 	ENDC
