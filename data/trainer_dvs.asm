@@ -30,21 +30,21 @@ TrainerClassDVs:
 	dvs  9,  8,  8,  8 ; BIRD_KEEPER
 	dvs  9,  8,  8,  8 ; BLACKBELT
 	dvs  9,  8,  8,  8 ; SONY1
-	dvs  9,  8,  8,  8 ; PROF_OAK
+	dvs 13, 12, 13, 13 ; PROF_OAK
 	dvs 13, 12, 13, 13 ; GIOVANNI2
 	dvs  9,  8,  8,  8 ; SCIENTIST
 	dvs 13, 12, 13, 13 ; GIOVANNI
-	dvs 13,  8, 10,  8 ; ROCKET
-	dvs 13,  8, 12,  8 ; COOLTRAINER_M
-	dvs  7, 12, 12,  8 ; COOLTRAINER_F
+	dvs 13, 12, 13, 13 ; ROCKET
+	dvs 13, 12, 13, 13 ; COOLTRAINER_M
+	dvs 13, 12, 13, 13 ; COOLTRAINER_F
 	dvs 13, 12, 13, 13 ; BRUNO
-	dvs  9, 10,  7,  7 ; BROCK
-	dvs  7,  8,  8,  8 ; MISTY
-	dvs 13,  8,  8,  8 ; LT_SURGE
-	dvs  7,  8,  8,  8 ; ERIKA
+	dvs 13, 12, 13, 13 ; BROCK
+	dvs  7, 15, 13, 15 ; MISTY
+	dvs 13, 12, 12, 13 ; LT_SURGE
+	dvs  7, 15, 13, 15 ; ERIKA
 	dvs 13, 12, 13, 13 ; KOGA
 	dvs 13, 12, 13, 13 ; BLAINE
-	dvs  7, 10, 10, 14 ; SABRINA
+	dvs  7, 15, 13, 15 ; SABRINA
 	dvs  9,  8,  8,  8 ; GENTLEMAN
 	dvs 13, 13, 13, 13 ; SONY2
 	dvs 15, 13, 13, 14 ; SONY3
