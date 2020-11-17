@@ -1,13 +1,13 @@
 PlateauMons1:
 	db $0F
-	db 44,GRAVELER
-	db 44,GEODUDE
-	db 44,ZUBAT
-	db 45,ONIX
-	db 45,ONIX
+	db 50,GRAVELER
+	db 50,GOLEM
+	db 50,GOLBAT
+	db 50,ONIX
+	db 50,ONIX
 	db 44,ONIX
 	db 45,GRAVELER
-	db 45,GOLBAT
-	db 45,MACHOKE
-	db 46,MAROWAK
+	db 55,GOLBAT
+	db 55,MACHOKE
+	db 55,MAROWAK
 	db $00
