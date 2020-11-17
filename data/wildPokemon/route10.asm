@@ -1,8 +1,8 @@
 Route10Mons:
 	db $0F
 	IF DEF(_RED)
-		db 16,VOLTORB
-		db 16,SPEAROW
+		db 20,VOLTORB
+		db 20,SPEAROW
 		db 14,VOLTORB
 		db 13,EKANS
 		db 13,SPEAROW
