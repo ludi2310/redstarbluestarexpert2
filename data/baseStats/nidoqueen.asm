@@ -12,9 +12,9 @@ INCBIN "pic/swmon/nidoqueen.pic",0,1 ; 77, sprite dimensions
 dw NidoqueenPicFront
 dw NidoqueenPicBack
 ; attacks known at lvl 0
-db TACKLE
-db SCRATCH
-db TAIL_WHIP
+db EARTHQUAKE
+db BLIZZARD
+db THUNDERBOLT
 db BODY_SLAM
 db 3 ; growth rate
 ; learnset
