@@ -1,10 +1,10 @@
 PlateauMons2:
 	db $0A
 	IF DEF(_RED)
-		db 44,MACHOKE
-		db 44,GEODUDE
-		db 25,ZUBAT
-		db 44,ONIX
+		db 50,MACHOKE
+		db 50,GOLEM
+		db 50,GOLBAT
+		db 50,ONIX
 		db 35,ONIX
 		db 44,MACHOKE
 		db 45,GRAVELER
@@ -13,10 +13,10 @@ PlateauMons2:
 		db 45,HITMONCHAN
 	ENDC
 	IF DEF(_BLUE)
-		db 44,MACHOKE
-		db 45,GEODUDE
-		db 45,ZUBAT
-		db 45,ONIX
+		db 50,MACHOKE
+		db 50,GOLBAT
+		db 50,GOLEM
+		db 50,ONIX
 		db 45,ONIX
 		db 44,MACHOKE
 		db 45,GRAVELER
