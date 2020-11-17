@@ -30,9 +30,9 @@ PrizeMenuMon2Entries:
 	db "@"
 
 PrizeMenuMon2Cost:
-	coins 2800
-	coins 5600
-	coins 8400
+	coins 1000
+	coins 2000
+	coins 3000
 	db "@"
 
 PrizeMenuTMsEntries:
@@ -42,7 +42,7 @@ PrizeMenuTMsEntries:
 	db "@"
 
 PrizeMenuTMsCost:
-	coins 3300
-	coins 5500
-	coins 7700
+	coins 300
+	coins 500
+	coins 700
 	db "@"
