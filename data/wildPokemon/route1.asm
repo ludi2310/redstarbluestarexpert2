@@ -8,6 +8,6 @@ Route1Mons:
 	db 3,PIDGEY
 	db 3,PIDGEY
 	db 4,RATTATA
-	db 4,PIDGEY
-	db 5,PIDGEY
+	db 8,PIDGEOTTO
+	db 9,PIDGEOTTO
 	db $00
