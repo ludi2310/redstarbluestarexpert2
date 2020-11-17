@@ -12,10 +12,10 @@ INCBIN "pic/swmon/vileplume.pic",0,1 ; 77, sprite dimensions
 dw VileplumePicFront
 dw VileplumePicBack
 ; attacks known at lvl 0
-db STUN_SPORE
+db SWORDS_DANCE
 db SLEEP_POWDER
-db ACID
-db PETAL_DANCE
+db BODY_SLAM
+db MEGA_DRAIN
 db 3 ; growth rate
 ; learnset
 	tmlearn 3,6,8
