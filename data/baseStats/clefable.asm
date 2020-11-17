@@ -12,10 +12,10 @@ INCBIN "pic/swmon/clefable.pic",0,1 ; 66, sprite dimensions
 dw ClefablePicFront
 dw ClefablePicBack
 ; attacks known at lvl 0
-db SING
-db DOUBLESLAP
-db MINIMIZE
-db METRONOME
+db BLIZZARD
+db THUNDER_WAVE
+db COUNTER
+db THUNDERBOLT
 db 4 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8
