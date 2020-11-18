@@ -239,7 +239,7 @@ ClefairyEvosMoves:
 	db 24, MINIMIZE
 	db 31, ICE_BEAM
 	db 39, BODY_SLAM
-	db 48, THUNDERBOLT
+	db 48, PETAL_DANCE
 	db 0
 
 SpearowEvosMoves:
@@ -1093,8 +1093,8 @@ PikachuEvosMoves:
 	db 20, SLAM
 	db 26, THUNDERBOLT
 	db 33, AGILITY
-	db 41, THUNDER
-	db 50, SURF
+	db 41, PETAL_DANCE
+	db 60, SURF
 	db 0
 
 RaichuEvosMoves:
@@ -1543,7 +1543,7 @@ GolduckEvosMoves:
 	db 28, TAIL_WHIP
 	db 33, SUBMISSION
 	db 39, PSYCHIC_M
-	db 48, ICE_PUNCH
+	db 48, PETAL_DANCE
 	db 59, HYDRO_PUMP
 	db 0
 
@@ -2098,7 +2098,7 @@ OddishEvosMoves:
 	db 0
 ; Learnset
 	db 15, POISONPOWDER
-	db 17, STUN_SPORE
+	db 17, LEECH_SEED
 	db 19, SLEEP_POWDER
 	db 24, ACID
 	db 33, PETAL_DANCE
@@ -2111,7 +2111,7 @@ GloomEvosMoves:
 	db 0
 ; Learnset
 	db 15, POISONPOWDER
-	db 17, STUN_SPORE
+	db 17, LEECH_SEED
 	db 19, SLEEP_POWDER
 	db 28, ACID
 	db 38, PETAL_DANCE
