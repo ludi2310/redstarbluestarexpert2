@@ -14,7 +14,7 @@ dw GolduckPicBack
 ; attacks known at lvl 0
 db SCRATCH
 db SUBMISSION
-db DISABLE
+db PETAL_DANCE
 db 0
 db 0 ; growth rate
 ; learnset
