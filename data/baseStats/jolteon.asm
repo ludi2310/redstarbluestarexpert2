@@ -12,8 +12,8 @@ INCBIN "pic/swmon/jolteon.pic",0,1 ; 66, sprite dimensions
 dw JolteonPicFront
 dw JolteonPicBack
 ; attacks known at lvl 0
-db TACKLE
-db TAIL_WHIP
+db SAND_ATTACK
+db THUNDER_WAVE
 db QUICK_ATTACK
 db THUNDERSHOCK
 db 0 ; growth rate
