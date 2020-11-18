@@ -294,7 +294,7 @@ IvysaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 13, VINE_WHIP
+	db 16, TAKE_DOWN
 	db 22, RAZOR_LEAF
 	db 30, SLUDGE
 	db 38, GROWTH
@@ -340,7 +340,7 @@ GrimerEvosMoves:
 ; Learnset
 	db 30, SLUDGE
 	db 33, MINIMIZE
-	db 37, SLUDGE
+	db 37, ACID_ARMOR
 	db 42, HARDEN
 	db 48, FLAMETHROWER
 	db 55, ACID_ARMOR
@@ -436,7 +436,7 @@ GyaradosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, BODY_SLAM
+	db 20, TAKE_DOWN
 	db 25, DRAGON_RAGE
 	db 32, HYDRO_PUMP
 	db 41, THUNDERBOLT
@@ -1515,7 +1515,7 @@ ButterfreeEvosMoves:
 	db 15, SLEEP_POWDER
 	db 18, CONFUSE_RAY
 	db 23, MEGA_DRAIN
-	db 28, SLUDGE
+	db 28, AMNESIA
 	db 34, PSYCHIC_M
 	db 0
 
@@ -2009,8 +2009,8 @@ CharmanderEvosMoves:
 	db EV_LEVEL, 16, CHARMELEON
 	db 0
 ; Learnset
-	db 9, EMBER
-	db 15, SEISMIC_TOSS
+	db 7, EMBER
+	db 13, FIRE_SPIN
 	db 22, DRAGON_RAGE
 	db 30, SLASH
 	db 38, FLAMETHROWER
