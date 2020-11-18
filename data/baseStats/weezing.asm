@@ -13,7 +13,7 @@ dw WeezingPicFront
 dw WeezingPicBack
 ; attacks known at lvl 0
 db TACKLE
-db SMOG
+db FLAMETHROWER
 db SLUDGE
 db 0
 db 0 ; growth rate
