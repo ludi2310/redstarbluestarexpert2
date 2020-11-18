@@ -1,6 +1,6 @@
 db DEX_SEADRA ; pokedex id
-db 65 ; base hp
-db 65 ; base attack
+db 75 ; base hp
+db 75 ; base attack
 db 95 ; base defense
 db 105 ; base speed
 db 105 ; base special
