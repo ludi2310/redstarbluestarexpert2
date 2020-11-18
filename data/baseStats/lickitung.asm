@@ -1,7 +1,7 @@
 db DEX_LICKITUNG ; pokedex id
-db 90 ; base hp
-db 75 ; base attack
-db 75 ; base defense
+db 110 ; base hp
+db 85 ; base attack
+db 95 ; base defense
 db 30 ; base speed
 db 70 ; base special
 db NORMAL ; species type 1
@@ -13,7 +13,7 @@ dw LickitungPicFront
 dw LickitungPicBack
 ; attacks known at lvl 0
 db WRAP
-db SUPERSONIC
+db LICK
 db 0
 db 0
 db 0 ; growth rate
