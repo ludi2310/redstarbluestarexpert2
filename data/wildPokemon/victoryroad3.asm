@@ -1,9 +1,9 @@
 PlateauMons3:
 	db $0F
 	IF DEF(_RED)
-		db 44,MACHOKE
-		db 45,GOLEM
-		db 44,GOLBAT
+		db 50,MACHOKE
+		db 50,GOLEM
+		db 50,GOLBAT
 		db 45,ONIX
 		db 45,VENOMOTH
 		db 45,ONIX
@@ -13,9 +13,9 @@ PlateauMons3:
 		db 45,HITMONLEE
 	ENDC
 	IF DEF(_BLUE)
-		db 45,MACHOKE
-		db 46,GOLEM
-		db 45,GOLBAT
+		db 50,MACHOKE
+		db 50,GOLEM
+		db 50,GOLBAT
 		db 42,ONIX
 		db 45,VENOMOTH
 		db 45,ONIX
