@@ -13,7 +13,7 @@ dw ParasectPicFront
 dw ParasectPicBack
 ; attacks known at lvl 0
 db SCRATCH
-db STUN_SPORE
+db LEECH_SEED
 db LEECH_LIFE
 db 0
 db 0 ; growth rate
