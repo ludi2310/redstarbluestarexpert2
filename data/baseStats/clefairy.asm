@@ -13,7 +13,7 @@ dw ClefairyPicFront
 dw ClefairyPicBack
 ; attacks known at lvl 0
 db POUND
-db GROWL
+db SOFTBOILED
 db 0
 db 0
 db 4 ; growth rate
