@@ -12,7 +12,7 @@ INCBIN "pic/swmon/exeggutor.pic",0,1 ; 77, sprite dimensions
 dw ExeggutorPicFront
 dw ExeggutorPicBack
 ; attacks known at lvl 0
-db BARRAGE
+db MEGA_DRAIN
 db HYPNOSIS
 db 0
 db 0
