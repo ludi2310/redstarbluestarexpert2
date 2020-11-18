@@ -5,14 +5,14 @@ db 95 ; base defense
 db 35 ; base speed
 db 60 ; base special
 db POISON ; species type 1
-db POISON ; species type 2
+db FIRE ; species type 2
 db 190 ; catch rate
 db 114 ; base exp yield
 INCBIN "pic/swmon/koffing.pic",0,1 ; 66, sprite dimensions
 dw KoffingPicFront
 dw KoffingPicBack
 ; attacks known at lvl 0
-db TACKLE
+db EMBER
 db SMOG
 db 0
 db 0
