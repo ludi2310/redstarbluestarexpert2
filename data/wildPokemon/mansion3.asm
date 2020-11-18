@@ -10,7 +10,7 @@ MansionMons3:
 		db 34,GRIMER
 		db 38,WEEZING
 		db 33,VULPIX
-		db 42,MUK
+		db 1,MEW
 	ENDC
 	IF DEF(_BLUE)
 		db 31,GRIMER
@@ -22,6 +22,6 @@ MansionMons3:
 		db 34,KOFFING
 		db 38,MUK
 		db 33,GROWLITHE
-		db 42,WEEZING
+		db 1,MEW
 	ENDC
 	db $00
