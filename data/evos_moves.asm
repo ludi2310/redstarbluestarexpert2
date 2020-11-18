@@ -463,7 +463,7 @@ TentacoolEvosMoves:
 	db 7, CONFUSE_RAY
 	db 13, WRAP
 	db 18, POISON_STING
-	db 22, BUBBLE_BEAM
+	db 22, BUBBLEBEAM
 	db 27, SLUDGE
 	db 33, BARRIER
 	db 40, ICE_BEAM
@@ -610,7 +610,7 @@ SlowpokeEvosMoves:
 	db 0
 ; Learnset
 	db 18, THUNDER_WAVE
-	db 22, BUBBLE_BEAM
+	db 22, BUBBLEBEAM
 	db 27, AURORA_BEAM
 	db 33, BODY_SLAM
 	db 40, AMNESIA
@@ -1806,7 +1806,7 @@ TentacruelEvosMoves:
 	db 7, SUPERSONIC
 	db 13, WRAP
 	db 18, POISON_STING
-	db 22, BUBBLE_BEAM
+	db 22, BUBBLEBEAM
 	db 27, PSYCHIC_M
 	db 35, SLUDGE
 	db 43, ICE_BEAM
@@ -2023,7 +2023,7 @@ SquirtleEvosMoves:
 	db 0
 ; Learnset
 	db 8, WATER_GUN
-	db 15, BUBBLE_BEAM
+	db 15, BUBBLEBEAM
 	db 22, BITE
 	db 28, WITHDRAW
 	db 35, SKULL_BASH
@@ -2049,7 +2049,7 @@ WartortleEvosMoves:
 	db 0
 ; Learnset
 	db 8, WATER_GUN
-	db 15, BUBBLE_BEAM
+	db 15, BUBBLEBEAM
 	db 24, BODY_SLAM
 	db 31, ICE_PUNCH
 	db 39, SKULL_BASH
