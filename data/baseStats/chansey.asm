@@ -12,7 +12,7 @@ INCBIN "pic/swmon/chansey.pic",0,1 ; 66, sprite dimensions
 dw ChanseyPicFront
 dw ChanseyPicBack
 ; attacks known at lvl 0
-db POUND
+db DIZZY_PUNCH
 db SOFTBOILED
 db 0
 db 0
