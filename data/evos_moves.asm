@@ -213,7 +213,7 @@ KangaskhanEvosMoves:
 	db 31, COUNTER
 	db 36, BODY_SLAM
 	db 41, EARTHQUAKE
-	db 46, DIZZY_PUNCH
+	db 46, ICE_BEAM
 	db 0
 
 NidoranMEvosMoves:
@@ -709,7 +709,7 @@ ArbokEvosMoves:
 	db 0
 ; Learnset
 	db 10, POISON_STING
-	db 17, WRAP
+	db 23, DIG
 	db 27, GLARE
 	db 36, SLUDGE
 	db 47, EARTHQUAKE
@@ -1541,7 +1541,7 @@ GolduckEvosMoves:
 	db 0
 ; Learnset
 	db 28, TAIL_WHIP
-	db 31, DISABLE
+	db 33, SUBMISSION
 	db 39, PSYCHIC_M
 	db 48, ICE_PUNCH
 	db 59, HYDRO_PUMP
