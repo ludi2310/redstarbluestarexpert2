@@ -239,7 +239,7 @@ ClefairyEvosMoves:
 	db 24, MINIMIZE
 	db 31, ICE_BEAM
 	db 39, BODY_SLAM
-	db 48, LIGHT_SCREEN
+	db 48, THUNDERBOLT
 	db 0
 
 SpearowEvosMoves:
@@ -306,7 +306,7 @@ ExeggutorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 38, STOMP
+	db 48, EXPLOSION
 	db 0
 
 LickitungEvosMoves:
@@ -1072,7 +1072,7 @@ VulpixEvosMoves:
 	db 21, NIGHT_SHADE
 	db 28, FLAMETHROWER
 	db 35, CONFUSE_RAY
-	db 42, FIRE_SPIN
+	db 42, PSYCHIC_M
 	db 0
 
 NinetalesEvosMoves:
@@ -1134,7 +1134,7 @@ DragonairEvosMoves:
 ; Learnset
 	db 10, THUNDER_WAVE
 	db 20, DRAGON_RAGE
-	db 35, WRAP
+	db 35, ICE_BEAM
 	db 45, AGILITY
 	db 55, HYPER_BEAM
 	db 0
@@ -1331,7 +1331,7 @@ MachopEvosMoves:
 
 ZubatEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 22, GOLBAT
+	db EV_LEVEL, 22,
 	db 0
 ; Learnset
 	db 10, SUPERSONIC
@@ -1564,9 +1564,9 @@ GolbatEvosMoves:
 	db 0
 ; Learnset
 	db 10, SUPERSONIC
-	db 15, BITE
-	db 21, CONFUSE_RAY
-	db 32, WING_ATTACK
+	db 15, CONFUSE_RAY
+	db 22, WING_ATTACK
+	db 32, LICK
 	db 43, DOUBLE_EDGE
 	db 0
 
@@ -1644,7 +1644,7 @@ CloysterEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 50, SPIKE_CANNON
+	db 50, EXPLOSION
 	db 0
 
 MissingNo8CEvosMoves:
@@ -1699,10 +1699,10 @@ MarowakEvosMoves:
 	db 10, BONE_CLUB
 	db 13, TAIL_WHIP
 	db 18, HEADBUTT
-	db 25, LEER
-	db 33, ROCK_SLIDE
+	db 25, BONEMERANG
+	db 33, LICK
 	db 41, DOUBLE_EDGE
-	db 48, BONEMERANG
+	db 48, ROCK_SLIDE
 	db 55, EARTHQUAKE
 	db 0
 
@@ -1968,7 +1968,7 @@ AerodactylEvosMoves:
 	db 0
 ; Learnset
 	db 33, ROCK_SLIDE
-	db 38, WING_ATTACK
+	db 38, SWORDS_DANCE
 	db 45, DOUBLE_EDGE
 	db 54, EARTHQUAKE
 	db 0
@@ -2060,7 +2060,7 @@ CharizardEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, EMBER
+	db 9, SEISMIC_TOSS
 	db 15, DRAGON_RAGE
 	db 24, FIRE_PUNCH
 	db 36, SLASH
