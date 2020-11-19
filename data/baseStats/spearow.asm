@@ -13,7 +13,7 @@ dw SpearowPicFront
 dw SpearowPicBack
 ; attacks known at lvl 0
 db PECK
-db GROWL
+db SUPERSONIC
 db 0
 db 0
 db 0 ; growth rate
