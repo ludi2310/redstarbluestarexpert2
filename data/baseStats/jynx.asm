@@ -3,7 +3,7 @@ db 65 ; base hp
 db 50 ; base attack
 db 35 ; base defense
 db 95 ; base speed
-db 95 ; base special
+db 105 ; base special
 db ICE ; species type 1
 db PSYCHIC ; species type 2
 db 45 ; catch rate
@@ -12,7 +12,7 @@ INCBIN "pic/swmon/jynx.pic",0,1 ; 66, sprite dimensions
 dw JynxPicFront
 dw JynxPicBack
 ; attacks known at lvl 0
-db POUND
+db ICE_PUNCH
 db LOVELY_KISS
 db 0
 db 0
