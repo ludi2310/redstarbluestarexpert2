@@ -12,7 +12,7 @@ INCBIN "pic/swmon/grimer.pic",0,1 ; 55, sprite dimensions
 dw GrimerPicFront
 dw GrimerPicBack
 ; attacks known at lvl 0
-db POUND
+db LICK
 db DISABLE
 db 0
 db 0
