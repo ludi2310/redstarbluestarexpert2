@@ -213,7 +213,7 @@ KangaskhanEvosMoves:
 	db 31, DOUBLE_KICK
 	db 36, BODY_SLAM
 	db 41, EARTHQUAKE
-	db 46, OUTRAGE
+	db 46, THRASH
 	db 0
 
 NidoranMEvosMoves:
@@ -439,7 +439,7 @@ GyaradosEvosMoves:
 	db 20, DRAGON_RAGE
 	db 25, BODY_SLAM
 	db 32, HYDRO_PUMP
-	db 41, OUTRAGE
+	db 41, THRASH
 	db 52, FLY
 	db 0
 
@@ -510,7 +510,7 @@ BlastoiseEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 1, OUTRAGE
+	db 1, THRASH
 	db 15, SURF
 	db 24, BODY_SLAM
 	db 31, ICE_BEAM
@@ -928,7 +928,7 @@ DragoniteEvosMoves:
 	db 10, THUNDER_WAVE
 	db 20, WRAP
 	db 55, WING_ATTACK
-	db 60, OUTRAGE
+	db 60, THRASH
 	db 65, EARTHQUAKE
 	db 0
 
@@ -1178,7 +1178,7 @@ SeadraEvosMoves:
 ; Learnset
 	db 19, SURF
 	db 24, SMOKESCREEN
-	db 33, OUTRAGE
+	db 33, THRASH
 	db 41, ICE_BEAM
 	db 52, HYDRO_PUMP
 	db 0
@@ -1409,7 +1409,7 @@ BeedrillEvosMoves:
 	db 20, CUT
 	db 25, SWORDS_DANCE
 	db 30, SLASH
-	db 45, OUTRAGE
+	db 45, THRASH
 	db 0
 
 MissingNo73EvosMoves:
@@ -2060,7 +2060,7 @@ CharizardEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, OUTRAGE
+	db 9, THRASH
 	db 15, SWORDS_DANCE
 	db 24, FIRE_PUNCH
 	db 36, WING_ATTACK
