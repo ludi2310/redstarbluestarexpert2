@@ -510,7 +510,7 @@ BlastoiseEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 1,  OUTRAGE
+	db 1, OUTRAGE
 	db 15, SURF
 	db 24, BODY_SLAM
 	db 31, ICE_BEAM
