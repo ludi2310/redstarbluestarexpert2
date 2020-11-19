@@ -13,7 +13,7 @@ dw MrMimePicFront
 dw MrMimePicBack
 ; attacks known at lvl 0
 db CONFUSION
-db BARRIER
+db CONFUSE_RAY
 db 0
 db 0
 db 0 ; growth rate
