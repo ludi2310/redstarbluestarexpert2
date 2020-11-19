@@ -15,7 +15,7 @@ dw BlastoisePicBack
 db SURF
 db ICE_PUNCH
 db BODY_SLAM
-db OUTRAGE
+db THRASH
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8
