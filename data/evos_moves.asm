@@ -650,7 +650,7 @@ ChanseyEvosMoves:
 	db 0
 ; Learnset
 	db 12, SWIFT
-	db 24, SWEET_KISS
+	db 24, LOVELY_KISS
 	db 30, DIZZY_PUNCH
 	db 38, MINIMIZE
 	db 44, SOFTBOILED
