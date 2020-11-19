@@ -213,7 +213,7 @@ KangaskhanEvosMoves:
 	db 31, COUNTER
 	db 36, BODY_SLAM
 	db 41, EARTHQUAKE
-	db 46, ICE_BEAM
+	db 46, OUTRAGE
 	db 0
 
 NidoranMEvosMoves:
@@ -386,7 +386,7 @@ CuboneEvosMoves:
 	db 18, HEADBUTT
 	db 25, LEER
 	db 31, FOCUS_ENERGY
-	db 38, THRASH
+	db 38, ROCK_SLIDE
 	db 43, BONEMERANG
 	db 46, DOUBLE_EDGE
 	db 0
@@ -838,7 +838,7 @@ MankeyEvosMoves:
 	db 21, BODY_SLAM
 	db 27, ROCK_SLIDE
 	db 33, SEISMIC_TOSS
-	db 39, THRASH
+	db 39, ROCK_SLIDE
 	db 45, SCREECH
 	db 0
 
@@ -928,8 +928,8 @@ DragoniteEvosMoves:
 	db 10, THUNDER_WAVE
 	db 20, AGILITY
 	db 35, WRAP
-	db 55, EARTHQUAKE
-	db 60, HYPER_BEAM
+	db 55, OUTRAGE
+	db 60, EARTHQUAKE
 	db 0
 
 MissingNo43EvosMoves:
@@ -1179,7 +1179,7 @@ SeadraEvosMoves:
 	db 19, SMOKESCREEN
 	db 24, DRAGON_RAGE
 	db 30, SURF
-	db 41, ICE_BEAM
+	db 41, OUTRAGE
 	db 52, HYDRO_PUMP
 	db 0
 
