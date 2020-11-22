@@ -12,7 +12,7 @@ INCBIN "pic/swmon/cubone.pic",0,1 ; 55, sprite dimensions
 dw CubonePicFront
 dw CubonePicBack
 ; attacks known at lvl 0
-db GROWL
+db BONE_CLUB
 db 0
 db 0
 db 0
