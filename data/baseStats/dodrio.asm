@@ -12,9 +12,9 @@ INCBIN "pic/swmon/dodrio.pic",0,1 ; 77, sprite dimensions
 dw DodrioPicFront
 dw DodrioPicBack
 ; attacks known at lvl 0
-db PECK
-db GROWL
-db FURY_ATTACK
+db SWORDS_DANCE
+db TRI_ATTACK
+db DRILL_PECK
 db 0
 db 0 ; growth rate
 ; learnset
