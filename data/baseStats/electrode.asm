@@ -12,8 +12,8 @@ INCBIN "pic/swmon/electrode.pic",0,1 ; 55, sprite dimensions
 dw ElectrodePicFront
 dw ElectrodePicBack
 ; attacks known at lvl 0
-db TACKLE
-db SCREECH
+db EXPLOSION
+db THUNDERBOLT
 db SONICBOOM
 db 0
 db 0 ; growth rate
