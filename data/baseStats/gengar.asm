@@ -14,7 +14,7 @@ dw GengarPicBack
 ; attacks known at lvl 0
 db LICK
 db CONFUSE_RAY
-db NIGHT_SHADE
+db PSYCHIC_M
 db 0
 db 3 ; growth rate
 ; learnset
