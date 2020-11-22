@@ -15,7 +15,7 @@ dw JolteonPicBack
 db SAND_ATTACK
 db THUNDER_WAVE
 db QUICK_ATTACK
-db THUNDERSHOCK
+db THUNDERBOLT
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8
