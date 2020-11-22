@@ -1462,9 +1462,9 @@ VenomothEvosMoves:
 	db 22, POISONPOWDER
 	db 27, LEECH_LIFE
 	db 30, STUN_SPORE
-	db 38, PSYBEAM
+	db 38, PSYCHIC_M
 	db 43, SLEEP_POWDER
-	db 50, PSYCHIC_M
+	db 50, AMNESIA
 	db 0
 
 DewgongEvosMoves:
