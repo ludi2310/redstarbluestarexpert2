@@ -13,7 +13,7 @@ dw PikachuPicFront
 dw PikachuPicBack
 ; attacks known at lvl 0
 db THUNDERSHOCK
-db SING
+db MIMIC
 db 0
 db 0
 db 0 ; growth rate
