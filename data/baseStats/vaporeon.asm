@@ -12,10 +12,10 @@ INCBIN "pic/swmon/vaporeon.pic",0,1 ; 66, sprite dimensions
 dw VaporeonPicFront
 dw VaporeonPicBack
 ; attacks known at lvl 0
-db TACKLE
-db TAIL_WHIP
-db QUICK_ATTACK
-db WATER_GUN
+db MIMIC
+db SAND_ATTACK
+db AURORA_BEAM
+db WATERFALL
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8
