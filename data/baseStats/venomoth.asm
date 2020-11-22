@@ -12,10 +12,10 @@ INCBIN "pic/swmon/venomoth.pic",0,1 ; 77, sprite dimensions
 dw VenomothPicFront
 dw VenomothPicBack
 ; attacks known at lvl 0
-db TACKLE
-db DISABLE
-db SUPERSONIC
-db CONFUSION
+db PSYBEAM
+db LEECH_LIFE
+db CONFUSE_RAY
+db AMNESIA
 db 0 ; growth rate
 ; learnset
 	tmlearn 2,4,6
