@@ -13,8 +13,8 @@ dw ArbokPicFront
 dw ArbokPicBack
 ; attacks known at lvl 0
 db WRAP
-db LEER
-db POISON_STING
+db DIG
+db SLUDGE
 db 0
 db 0 ; growth rate
 ; learnset
