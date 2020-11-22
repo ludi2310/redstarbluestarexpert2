@@ -12,7 +12,7 @@ INCBIN "pic/swmon/geodude.pic",0,1 ; 55, sprite dimensions
 dw GeodudePicFront
 dw GeodudePicBack
 ; attacks known at lvl 0
-db TACKLE
+db ROCK_THROW
 db 0
 db 0
 db 0
