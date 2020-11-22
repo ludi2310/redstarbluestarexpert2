@@ -12,9 +12,9 @@ INCBIN "pic/swmon/alakazam.pic",0,1 ; 77, sprite dimensions
 dw AlakazamPicFront
 dw AlakazamPicBack
 ; attacks known at lvl 0
-db TELEPORT
-db CONFUSION
-db DISABLE
+db CONFUSE_RAY
+db PSYCHIC_M
+db RECOVER
 db KINESIS
 db 3 ; growth rate
 ; learnset
