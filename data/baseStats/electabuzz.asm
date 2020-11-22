@@ -1,9 +1,9 @@
 db DEX_ELECTABUZZ ; pokedex id
-db 65 ; base hp
-db 83 ; base attack
-db 57 ; base defense
-db 105 ; base speed
-db 85 ; base special
+db 75 ; base hp
+db 93 ; base attack
+db 67 ; base defense
+db 115 ; base speed
+db 95 ; base special
 db ELECTRIC ; species type 1
 db ELECTRIC ; species type 2
 db 45 ; catch rate
@@ -13,7 +13,7 @@ dw ElectabuzzPicFront
 dw ElectabuzzPicBack
 ; attacks known at lvl 0
 db QUICK_ATTACK
-db LEER
+db THUNDERPUNCH
 db 0
 db 0
 db 0 ; growth rate
