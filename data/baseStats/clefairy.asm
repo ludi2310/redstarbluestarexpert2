@@ -12,7 +12,7 @@ INCBIN "pic/swmon/clefairy.pic",0,1 ; 55, sprite dimensions
 dw ClefairyPicFront
 dw ClefairyPicBack
 ; attacks known at lvl 0
-db POUND
+db DIZZY_PUNCH
 db SOFTBOILED
 db 0
 db 0
