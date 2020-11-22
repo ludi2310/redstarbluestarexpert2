@@ -639,7 +639,7 @@ GravelerEvosMoves:
 ; Learnset
 	db 11, DEFENSE_CURL
 	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
+	db 21, AGILITY
 	db 29, ROCK_SLIDE
 	db 36, EARTHQUAKE
 	db 43, EXPLOSION
@@ -756,11 +756,11 @@ GolemEvosMoves:
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
-	db 21, BODY_SLAM
+	db 16, EXPLOSION
+	db 21, AGILITY
 	db 29, ROCK_SLIDE
 	db 36, EARTHQUAKE
-	db 43, EXPLOSION
+	db 43, BODY_SLAM
 	db 0
 
 MissingNo32EvosMoves:
@@ -1946,8 +1946,8 @@ GeodudeEvosMoves:
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
+	db 16, AGILITY
+	db 21, HEADBUTT
 	db 26, HARDEN
 	db 31, EARTHQUAKE
 	db 36, EXPLOSION
@@ -2050,8 +2050,8 @@ WartortleEvosMoves:
 ; Learnset
 	db 8, WATER_GUN
 	db 15, BUBBLEBEAM
-	db 24, BODY_SLAM
-	db 31, ICE_PUNCH
+	db 22, BODY_SLAM
+	db 30, ICE_PUNCH
 	db 39, SKULL_BASH
 	db 47, HYDRO_PUMP
 	db 0
