@@ -12,8 +12,8 @@ INCBIN "pic/swmon/muk.pic",0,1 ; 77, sprite dimensions
 dw MukPicFront
 dw MukPicBack
 ; attacks known at lvl 0
-db POUND
-db DISABLE
+db SLUDGE
+db CONFUSE_RAY
 db POISON_GAS
 db 0
 db 0 ; growth rate
