@@ -12,9 +12,9 @@ INCBIN "pic/swmon/dewgong.pic",0,1 ; 66, sprite dimensions
 dw DewgongPicFront
 dw DewgongPicBack
 ; attacks known at lvl 0
-db HEADBUTT
-db GROWL
-db AURORA_BEAM
+db BODY_SLAM
+db WATERFALL
+db ICE_BEAM
 db 0
 db 0 ; growth rate
 ; learnset
