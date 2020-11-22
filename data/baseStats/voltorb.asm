@@ -12,7 +12,7 @@ INCBIN "pic/swmon/voltorb.pic",0,1 ; 55, sprite dimensions
 dw VoltorbPicFront
 dw VoltorbPicBack
 ; attacks known at lvl 0
-db TACKLE
+db THUNDERHOCK
 db SCREECH
 db 0
 db 0
