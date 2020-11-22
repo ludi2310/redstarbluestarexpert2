@@ -235,11 +235,11 @@ ClefairyEvosMoves:
 	db 0
 ; Learnset
 	db 13, THUNDER_WAVE
-	db 18, DIZZY_PUNCH
+	db 18, PETAL_DANCE
 	db 24, MINIMIZE
 	db 31, ICE_BEAM
 	db 39, BODY_SLAM
-	db 48, PETAL_DANCE
+	db 48, THUNDERBOLT
 	db 0
 
 SpearowEvosMoves:
@@ -381,10 +381,10 @@ CuboneEvosMoves:
 	db EV_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db 10, BONE_CLUB
+	db 10, HEADBUTT
 	db 13, ROCK_THROW
-	db 18, HEADBUTT
-	db 25, LEER
+	db 18, SKULL_BASH
+	db 25, DIG
 	db 31, FOCUS_ENERGY
 	db 38, ROCK_SLIDE
 	db 43, BONEMERANG
@@ -773,7 +773,7 @@ MagmarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 36, FIRE_PUNCH
+	db 26, THUNDERPUNCH
 	db 39, CONFUSE_RAY
 	db 43, BODY_SLAM
 	db 48, SMOKESCREEN
@@ -791,7 +791,7 @@ ElectabuzzEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, THUNDERPUNCH
+	db 34, FIRE_PUNCH
 	db 37, SEISMIC_TOSS
 	db 42, THUNDER_WAVE
 	db 49, PSYCHIC_M
@@ -1658,7 +1658,7 @@ ElectrodeEvosMoves:
 	db 0
 ; Learnset
 	db 17, SONICBOOM
-	db 22, SCREECH
+	db 22, PIN_MISSILE
 	db 31, THUNDERBOLT
 	db 40, THUNDER_WAVE
 	db 50, EXPLOSION
@@ -1698,7 +1698,7 @@ MarowakEvosMoves:
 ; Learnset
 	db 10, BONE_CLUB
 	db 13, TAIL_WHIP
-	db 18, HEADBUTT
+	db 18, SKULL_BASH
 	db 33, SWORDS_DANCE
 	db 37, LICK
 	db 41, DOUBLE_EDGE
@@ -1888,7 +1888,7 @@ RapidashEvosMoves:
 	db 30, DOUBLE_KICK
 	db 32, STOMP
 	db 35, FLAMETHROWER
-	db 40, HORN_DRILL
+	db 40, DRILL_PECK
 	db 47, BODY_SLAM
 	db 55, AGILITY
 	db 0
