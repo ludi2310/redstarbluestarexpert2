@@ -1898,7 +1898,7 @@ RattataEvosMoves:
 	db EV_LEVEL, 20, RATICATE
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
+	db 7, BITE
 	db 14, HYPER_FANG
 	db 23, SWORDS_DANCE
 	db 34, SUPER_FANG
