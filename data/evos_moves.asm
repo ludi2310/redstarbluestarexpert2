@@ -1794,9 +1794,9 @@ VenusaurEvosMoves:
 	db 13, VINE_WHIP
 	db 22, POISONPOWDER
 	db 30, RAZOR_LEAF
-	db 43, GROWTH
+	db 43, SWORDS_DANCE
 	db 55, SLEEP_POWDER
-	db 65, SOLARBEAM
+	db 60, EARTHQUAKE
 	db 0
 
 TentacruelEvosMoves:
@@ -1840,7 +1840,7 @@ SeakingEvosMoves:
 	db 24, HORN_ATTACK
 	db 30, FURY_ATTACK
 	db 39, WATERFALL
-	db 48, HORN_DRILL
+	db 48, DRILL_PECK
 	db 54, AGILITY
 	db 0
 
