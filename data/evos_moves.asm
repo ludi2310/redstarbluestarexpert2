@@ -722,7 +722,7 @@ ParasectEvosMoves:
 	db 13, CONFUSE_RAY
 	db 20, LEECH_LIFE
 	db 30, SPORE
-	db 39, SLASH
+	db 39, DREAM_EATER
 	db 48, SWORDS_DANCE
 	db 0
 
