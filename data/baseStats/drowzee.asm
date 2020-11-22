@@ -12,7 +12,7 @@ INCBIN "pic/swmon/drowzee.pic",0,1 ; 66, sprite dimensions
 dw DrowzeePicFront
 dw DrowzeePicBack
 ; attacks known at lvl 0
-db POUND
+db HEADBUTT
 db HYPNOSIS
 db 0
 db 0
