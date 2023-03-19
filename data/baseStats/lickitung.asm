@@ -1,6 +1,6 @@
 db DEX_LICKITUNG ; pokedex id
 db 110 ; base hp
-db 85 ; base attack
+db 105 ; base attack
 db 95 ; base defense
 db 30 ; base speed
 db 70 ; base special
