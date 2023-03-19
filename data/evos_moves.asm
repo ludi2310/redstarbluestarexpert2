@@ -197,11 +197,11 @@ RhydonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, STOMP
-	db 35, BODY_SLAM
+	db 30, BODY_SLAM
+	db 35, BONEMERANG
 	db 40, ROCK_SLIDE
-	db 48, HORN_DRILL
-	db 55, EARTHQUAKE
+	db 48, EARTHQUAKE
+	db 55, HORN_DRILL
 	db 64, DOUBLE_EDGE
 	db 0
 
@@ -209,9 +209,10 @@ KangaskhanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 24, DRAGON_RAGE
-	db 31, DOUBLE_KICK
-	db 36, BODY_SLAM
+	db 22, DRAGON_RAGE
+	db 27, SUBMISSION
+	db 31, BODY_SLAM
+	db 36, SOFTBOILED
 	db 41, EARTHQUAKE
 	db 46, THRASH
 	db 0
@@ -224,9 +225,9 @@ NidoranMEvosMoves:
 	db 8, HORN_ATTACK
 	db 12, DOUBLE_KICK
 	db 17, POISON_STING
-	db 23, BODY_SLAM
-	db 30, SLUDGE
-	db 38, HORN_DRILL
+	db 20, BODY_SLAM
+	db 23, SLUDGE
+	db 26, DRILL_PECK
 	db 0
 
 ClefairyEvosMoves:
@@ -235,11 +236,11 @@ ClefairyEvosMoves:
 	db 0
 ; Learnset
 	db 13, THUNDER_WAVE
-	db 18, PETAL_DANCE
+	db 18, TRI_ATTACK
 	db 24, MINIMIZE
-	db 31, ICE_BEAM
+	db 31, PETAL_DANCE
 	db 39, BODY_SLAM
-	db 48, THUNDERBOLT
+	db 48, SOFTBOILED
 	db 0
 
 SpearowEvosMoves:
@@ -248,8 +249,8 @@ SpearowEvosMoves:
 	db 0
 ; Learnset
 	db 9, MIRROR_MOVE
-	db 15, FURY_ATTACK
-	db 22, WING_ATTACK
+	db 15, WING_ATTACK
+	db 22, SOFTBOILED
 	db 29, DRILL_PECK
 	db 36, AGILITY
 	db 0
@@ -259,11 +260,12 @@ VoltorbEvosMoves:
 	db EV_LEVEL, 30, ELECTRODE
 	db 0
 ; Learnset
-	db 17, SONICBOOM
-	db 22, SELFDESTRUCT
+	db 10, SONICBOOM
+	db 15, THUNDER_WAVE
+	db 20, AURORA_BEAM
+	db 25, SWIFT
 	db 29, THUNDERBOLT
-	db 36, THUNDER_WAVE
-	db 43, EXPLOSION
+	db 35, EXPLOSION
 	db 0
 
 NidokingEvosMoves:
@@ -273,6 +275,8 @@ NidokingEvosMoves:
 	db 23, LOVELY_KISS
 	db 33, BODY_SLAM
 	db 43, EARTHQUAKE
+	db 48, SUPER_FANG
+	db 53, DRILL_PECK
 	db 0
 
 SlowbroEvosMoves:
@@ -294,19 +298,22 @@ IvysaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 16, TAKE_DOWN
-	db 22, RAZOR_LEAF
-	db 30, SLUDGE
-	db 38, GROWTH
-	db 46, SLEEP_POWDER
-	db 54, SOLARBEAM
+	db 16, RAZOR_LEAF
+	db 22, SLUDGE
+	db 26, GROWTH
+	db 30, MEGA_DRAIN
+	db 36, RECOVER
+	db 44, SOLARBEAM
 	db 0
 
 ExeggutorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 48, EXPLOSION
+        db 35, PSYCHIC_M
+        db 40, SOFTBOILED
+	db 45, EXPLOSION
+	db 45, SOLARBEAM
 	db 0
 
 LickitungEvosMoves:
@@ -315,9 +322,11 @@ LickitungEvosMoves:
 ; Learnset
 	db 7, STOMP
 	db 15, CONFUSE_RAY
-	db 23, BODY_SLAM
+	db 21, BODY_SLAM
+	db 26, THUNDER_WAVE
 	db 31, SWORDS_DANCE
-	db 39, EARTHQUAKE
+	db 36, DIZZY_PUNCH
+	db 44, EARTHQUAKE
 	db 0
 
 ExeggcuteEvosMoves:
@@ -325,9 +334,10 @@ ExeggcuteEvosMoves:
 	db EV_ITEM, LEAF_STONE, 1, EXEGGUTOR
 	db 0
 ; Learnset
-	db 25, REFLECT
-	db 28, LEECH_SEED
-	db 32, STUN_SPORE
+	db 20, LEECH_SEED
+	db 25, RECOVER
+	db 28, EGG_BOMB
+	db 30, STUN_SPORE
 	db 37, PSYCHIC_M
 	db 42, SOLARBEAM
 	db 48, SLEEP_POWDER
@@ -338,10 +348,10 @@ GrimerEvosMoves:
 	db EV_LEVEL, 38, MUK
 	db 0
 ; Learnset
-	db 30, SLUDGE
-	db 33, MINIMIZE
-	db 37, ACID_ARMOR
-	db 42, HARDEN
+	db 15, ACID
+	db 20, MINIMIZE
+	db 25, SLUDGE
+	db 30, MEGA_DRAIN
 	db 48, FLAMETHROWER
 	db 55, ACID_ARMOR
 	db 0
@@ -352,6 +362,7 @@ GengarEvosMoves:
 ; Learnset
 	db 29, HYPNOSIS
 	db 38, DREAM_EATER
+	db 43, SKULL_BASH
 	db 0
 
 NidoranFEvosMoves:
