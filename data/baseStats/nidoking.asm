@@ -1,8 +1,8 @@
 db DEX_NIDOKING ; pokedex id
-db 81 ; base hp
-db 92 ; base attack
+db 91 ; base hp
+db 112 ; base attack
 db 77 ; base defense
-db 85 ; base speed
+db 95 ; base speed
 db 75 ; base special
 db POISON ; species type 1
 db GROUND ; species type 2
@@ -13,7 +13,7 @@ dw NidokingPicFront
 dw NidokingPicBack
 ; attacks known at lvl 0
 db EARTHQUAKE
-db BLIZZARD
+db DRILL_PECK
 db THUNDERBOLT
 db BODY_SLAM
 db 3 ; growth rate
