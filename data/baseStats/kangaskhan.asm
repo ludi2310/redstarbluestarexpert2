@@ -1,9 +1,9 @@
 db DEX_KANGASKHAN ; pokedex id
 db 105 ; base hp
 db 95 ; base attack
-db 80 ; base defense
-db 90 ; base speed
-db 70 ; base special
+db 100 ; base defense
+db 70 ; base speed
+db 90 ; base special
 db NORMAL ; species type 1
 db DRAGON ; species type 2
 db 45 ; catch rate
