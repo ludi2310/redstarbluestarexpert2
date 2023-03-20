@@ -1,11 +1,11 @@
 db DEX_CLOYSTER ; pokedex id
-db 50 ; base hp
-db 95 ; base attack
+db 60 ; base hp
+db 105 ; base attack
 db 180 ; base defense
 db 70 ; base speed
 db 85 ; base special
 db WATER ; species type 1
-db ICE ; species type 2
+db ROCK ; species type 2
 db 60 ; catch rate
 db 203 ; base exp yield
 INCBIN "pic/swmon/cloyster.pic",0,1 ; 77, sprite dimensions
@@ -15,7 +15,7 @@ dw CloysterPicBack
 db EXPLOSION
 db CLAMP
 db SURF
-db ICE_BEAM
+db ROCK_SLIDE
 db 5 ; growth rate
 ; learnset
 	tmlearn 6
