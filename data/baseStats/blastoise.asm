@@ -1,9 +1,9 @@
 db DEX_BLASTOISE ; pokedex id
-db 79 ; base hp
+db 109 ; base hp
 db 83 ; base attack
 db 100 ; base defense
-db 78 ; base speed
-db 85 ; base special
+db 58 ; base speed
+db 105 ; base special
 db WATER ; species type 1
 db WATER ; species type 2
 db 45 ; catch rate
@@ -15,7 +15,7 @@ dw BlastoisePicBack
 db SURF
 db ICE_PUNCH
 db BODY_SLAM
-db THRASH
+db RECOVER
 db 3 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8
