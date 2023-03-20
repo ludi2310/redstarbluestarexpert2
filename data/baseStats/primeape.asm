@@ -1,9 +1,9 @@
 db DEX_PRIMEAPE ; pokedex id
-db 65 ; base hp
-db 105 ; base attack
+db 85 ; base hp
+db 115 ; base attack
 db 60 ; base defense
-db 95 ; base speed
-db 60 ; base special
+db 125 ; base speed
+db 70 ; base special
 db FIGHTING ; species type 1
 db FIGHTING ; species type 2
 db 75 ; catch rate
@@ -12,10 +12,10 @@ INCBIN "pic/swmon/primeape.pic",0,1 ; 77, sprite dimensions
 dw PrimeapePicFront
 dw PrimeapePicBack
 ; attacks known at lvl 0
-db SCRATCH
-db LEER
-db LOW_KICK
-db KARATE_CHOP
+db ROCK_SLIDE
+db SUBMISSION
+db BONEMERANG
+db MEDITATE
 db 0 ; growth rate
 ; learnset
 	tmlearn 1,5,6,8
