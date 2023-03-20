@@ -12,8 +12,8 @@ INCBIN "pic/swmon/onix.pic",0,1 ; 77, sprite dimensions
 dw OnixPicFront
 dw OnixPicBack
 ; attacks known at lvl 0
-db TACKLE
-db SCREECH
+db ROCK_THROW
+db BONE_CLUB
 db 0
 db 0
 db 0 ; growth rate
