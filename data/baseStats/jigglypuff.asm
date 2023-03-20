@@ -1,9 +1,9 @@
 db DEX_JIGGLYPUFF ; pokedex id
 db 115 ; base hp
-db 45 ; base attack
+db 55 ; base attack
 db 20 ; base defense
-db 20 ; base speed
-db 25 ; base special
+db 30 ; base speed
+db 45 ; base special
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 170 ; catch rate
@@ -13,7 +13,7 @@ dw JigglypuffPicFront
 dw JigglypuffPicBack
 ; attacks known at lvl 0
 db SING
-db 0
+db DIZZY_PUNCH
 db 0
 db 0
 db 4 ; growth rate
