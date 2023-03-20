@@ -1,7 +1,7 @@
 db DEX_TENTACRUEL ; pokedex id
 db 80 ; base hp
 db 70 ; base attack
-db 65 ; base defense
+db 85 ; base defense
 db 100 ; base speed
 db 120 ; base special
 db WATER ; species type 1
@@ -14,7 +14,7 @@ dw TentacruelPicBack
 ; attacks known at lvl 0
 db SLUDGE
 db CONFUSE_RAY
-db WRAP
+db RECOVER
 db 0
 db 5 ; growth rate
 ; learnset
