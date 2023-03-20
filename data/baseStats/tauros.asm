@@ -1,6 +1,6 @@
 db DEX_TAUROS ; pokedex id
-db 75 ; base hp
-db 100 ; base attack
+db 105 ; base hp
+db 110 ; base attack
 db 95 ; base defense
 db 110 ; base speed
 db 70 ; base special
