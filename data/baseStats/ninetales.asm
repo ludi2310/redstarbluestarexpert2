@@ -1,9 +1,9 @@
 db DEX_NINETALES ; pokedex id
 db 73 ; base hp
-db 76 ; base attack
+db 56 ; base attack
 db 75 ; base defense
-db 100 ; base speed
-db 100 ; base special
+db 110 ; base speed
+db 120 ; base special
 db FIRE ; species type 1
 db PSYCHIC ; species type 2
 db 75 ; catch rate
