@@ -1,9 +1,9 @@
 db DEX_FEAROW ; pokedex id
-db 65 ; base hp
-db 90 ; base attack
-db 65 ; base defense
+db 75 ; base hp
+db 135 ; base attack
+db 75 ; base defense
 db 100 ; base speed
-db 61 ; base special
+db 51 ; base special
 db NORMAL ; species type 1
 db FLYING ; species type 2
 db 90 ; catch rate
