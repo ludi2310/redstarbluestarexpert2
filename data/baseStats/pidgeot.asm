@@ -1,8 +1,8 @@
 db DEX_PIDGEOT ; pokedex id
 db 83 ; base hp
-db 80 ; base attack
+db 100 ; base attack
 db 75 ; base defense
-db 91 ; base speed
+db 111 ; base speed
 db 70 ; base special
 db NORMAL ; species type 1
 db FLYING ; species type 2
@@ -12,10 +12,10 @@ INCBIN "pic/swmon/pidgeot.pic",0,1 ; 77, sprite dimensions
 dw PidgeotPicFront
 dw PidgeotPicBack
 ; attacks known at lvl 0
-db GUST
+db WING_ATTACK
 db SAND_ATTACK
 db QUICK_ATTACK
-db 0
+db RECOVER
 db 3 ; growth rate
 ; learnset
 	tmlearn 2,4,6
