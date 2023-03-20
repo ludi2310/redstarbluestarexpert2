@@ -1,11 +1,11 @@
 db DEX_SEAKING ; pokedex id
-db 80 ; base hp
-db 92 ; base attack
+db 100 ; base hp
+db 112 ; base attack
 db 65 ; base defense
-db 68 ; base speed
-db 80 ; base special
+db 88 ; base speed
+db 90 ; base special
 db WATER ; species type 1
-db WATER ; species type 2
+db NORMAL ; species type 2
 db 60 ; catch rate
 db 170 ; base exp yield
 INCBIN "pic/swmon/seaking.pic",0,1 ; 77, sprite dimensions
