@@ -1,5 +1,5 @@
 db DEX_DITTO ; pokedex id
-db 138 ; base hp
+db 78 ; base hp
 db 78 ; base attack
 db 78 ; base defense
 db 88 ; base speed
