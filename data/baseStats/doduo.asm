@@ -4,8 +4,8 @@ db 85 ; base attack
 db 45 ; base defense
 db 75 ; base speed
 db 35 ; base special
-db NORMAL ; species type 1
-db FLYING ; species type 2
+db FLYING ; species type 1
+db GROUND ; species type 2
 db 190 ; catch rate
 db 96 ; base exp yield
 INCBIN "pic/swmon/doduo.pic",0,1 ; 55, sprite dimensions
