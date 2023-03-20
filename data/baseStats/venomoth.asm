@@ -1,11 +1,11 @@
 db DEX_VENOMOTH ; pokedex id
 db 70 ; base hp
-db 65 ; base attack
+db 75 ; base attack
 db 60 ; base defense
-db 90 ; base speed
-db 90 ; base special
+db 110 ; base speed
+db 120 ; base special
 db BUG ; species type 1
-db POISON ; species type 2
+db PSYCHIC ; species type 2
 db 75 ; catch rate
 db 138 ; base exp yield
 INCBIN "pic/swmon/venomoth.pic",0,1 ; 77, sprite dimensions
