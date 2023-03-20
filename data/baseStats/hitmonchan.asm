@@ -1,11 +1,11 @@
 db DEX_HITMONCHAN ; pokedex id
-db 50 ; base hp
-db 105 ; base attack
-db 79 ; base defense
-db 76 ; base speed
-db 35 ; base special
+db 80 ; base hp
+db 125 ; base attack
+db 89 ; base defense
+db 106 ; base speed
+db 75 ; base special
 db FIGHTING ; species type 1
-db FIGHTING ; species type 2
+db GROUND ; species type 2
 db 45 ; catch rate
 db 140 ; base exp yield
 INCBIN "pic/swmon/hitmonchan.pic",0,1 ; 66, sprite dimensions
@@ -14,7 +14,7 @@ dw HitmonchanPicBack
 ; attacks known at lvl 0
 db COMET_PUNCH
 db AGILITY
-db 0
+db BONE_CLUB
 db 0
 db 0 ; growth rate
 ; learnset
