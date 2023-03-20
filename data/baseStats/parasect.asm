@@ -1,9 +1,9 @@
 db DEX_PARASECT ; pokedex id
-db 60 ; base hp
+db 90 ; base hp
 db 95 ; base attack
-db 90 ; base defense
-db 30 ; base speed
-db 90 ; base special
+db 110 ; base defense
+db 20 ; base speed
+db 110 ; base special
 db BUG ; species type 1
 db GRASS ; species type 2
 db 75 ; catch rate
