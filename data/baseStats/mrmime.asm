@@ -1,9 +1,9 @@
 db DEX_MR_MIME ; pokedex id
 db 40 ; base hp
-db 45 ; base attack
-db 65 ; base defense
-db 90 ; base speed
-db 100 ; base special
+db 25 ; base attack
+db 125 ; base defense
+db 100 ; base speed
+db 130 ; base special
 db PSYCHIC ; species type 1
 db PSYCHIC ; species type 2
 db 45 ; catch rate
