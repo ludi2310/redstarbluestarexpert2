@@ -1,8 +1,8 @@
 db DEX_FARFETCHD ; pokedex id
 db 62 ; base hp
-db 95 ; base attack
-db 55 ; base defense
-db 90 ; base speed
+db 115 ; base attack
+db 65 ; base defense
+db 130 ; base speed
 db 58 ; base special
 db FIGHTING ; species type 1
 db FLYING ; species type 2
@@ -12,9 +12,9 @@ INCBIN "pic/swmon/farfetchd.pic",0,1 ; 66, sprite dimensions
 dw FarfetchdPicFront
 dw FarfetchdPicBack
 ; attacks known at lvl 0
-db PECK
+db GUST
 db SAND_ATTACK
-db 0
+db KARATE_CHOP
 db 0
 db 0 ; growth rate
 ; learnset
