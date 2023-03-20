@@ -1,11 +1,11 @@
 db DEX_RAPIDASH ; pokedex id
-db 65 ; base hp
-db 100 ; base attack
+db 95 ; base hp
+db 110 ; base attack
 db 70 ; base defense
-db 105 ; base speed
-db 80 ; base special
+db 125 ; base speed
+db 100 ; base special
 db FIRE ; species type 1
-db FIRE ; species type 2
+db NORMAL ; species type 2
 db 60 ; catch rate
 db 192 ; base exp yield
 INCBIN "pic/swmon/rapidash.pic",0,1 ; 77, sprite dimensions
