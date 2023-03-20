@@ -2,7 +2,7 @@ db DEX_PORYGON ; pokedex id
 db 95 ; base hp
 db 70 ; base attack
 db 100 ; base defense
-db 40 ; base speed
+db 110 ; base speed
 db 125 ; base special
 db ELECTRIC ; species type 1
 db PSYCHIC ; species type 2
@@ -13,7 +13,7 @@ dw PorygonPicFront
 dw PorygonPicBack
 ; attacks known at lvl 0
 db CONFUSION
-db SHARPEN
+db THUNDERSHOCK
 db RECOVER
 db 0
 db 0 ; growth rate
