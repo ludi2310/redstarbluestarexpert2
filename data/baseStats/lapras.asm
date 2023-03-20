@@ -3,7 +3,7 @@ db 130 ; base hp
 db 85 ; base attack
 db 80 ; base defense
 db 60 ; base speed
-db 95 ; base special
+db 105 ; base special
 db WATER ; species type 1
 db ICE ; species type 2
 db 45 ; catch rate
@@ -12,8 +12,8 @@ INCBIN "pic/swmon/lapras.pic",0,1 ; 77, sprite dimensions
 dw LaprasPicFront
 dw LaprasPicBack
 ; attacks known at lvl 0
-db WATER_GUN
-db GROWL
+db SURF
+db SOFTBOILED
 db 0
 db 0
 db 5 ; growth rate
