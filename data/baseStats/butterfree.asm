@@ -1,9 +1,9 @@
 db DEX_BUTTERFREE ; pokedex id
-db 60 ; base hp
+db 80 ; base hp
 db 45 ; base attack
-db 50 ; base defense
-db 70 ; base speed
-db 90 ; base special
+db 90 ; base defense
+db 90 ; base speed
+db 100 ; base special
 db BUG ; species type 1
 db FLYING ; species type 2
 db 45 ; catch rate
@@ -13,7 +13,7 @@ dw ButterfreePicFront
 dw ButterfreePicBack
 ; attacks known at lvl 0
 db CONFUSION
-db 0
+db RECOVER
 db 0
 db 0
 db 0 ; growth rate
