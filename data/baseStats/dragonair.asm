@@ -1,11 +1,11 @@
 db DEX_DRAGONAIR ; pokedex id
-db 61 ; base hp
+db 71 ; base hp
 db 84 ; base attack
 db 65 ; base defense
 db 70 ; base speed
-db 70 ; base special
+db 80 ; base special
 db DRAGON ; species type 1
-db DRAGON ; species type 2
+db WATER ; species type 2
 db 27 ; catch rate
 db 144 ; base exp yield
 INCBIN "pic/swmon/dragonair.pic",0,1 ; 66, sprite dimensions
@@ -13,9 +13,9 @@ dw DragonairPicFront
 dw DragonairPicBack
 ; attacks known at lvl 0
 db WRAP
-db LEER
+db BUBBLEBEAM
 db THUNDER_WAVE
-db 0
+db DRAGON_RAGE
 db 5 ; growth rate
 ; learnset
 	tmlearn 6,7,8
