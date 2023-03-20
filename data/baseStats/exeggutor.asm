@@ -14,7 +14,7 @@ dw ExeggutorPicBack
 ; attacks known at lvl 0
 db MEGA_DRAIN
 db HYPNOSIS
-db 0
+db SOFTBOILED
 db 0
 db 5 ; growth rate
 ; learnset
