@@ -1,8 +1,8 @@
 db DEX_FLAREON ; pokedex id
-db 65 ; base hp
-db 130 ; base attack
-db 60 ; base defense
-db 65 ; base speed
+db 135 ; base hp
+db 70 ; base attack
+db 80 ; base defense
+db 95 ; base speed
 db 110 ; base special
 db FIRE ; species type 1
 db FIRE ; species type 2
