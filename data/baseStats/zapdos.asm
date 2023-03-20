@@ -1,8 +1,8 @@
 db DEX_ZAPDOS ; pokedex id
 db 90 ; base hp
-db 90 ; base attack
+db 100 ; base attack
 db 85 ; base defense
-db 100 ; base speed
+db 130 ; base speed
 db 125 ; base special
 db ELECTRIC ; species type 1
 db FLYING ; species type 2
