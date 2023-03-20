@@ -1,11 +1,11 @@
 db DEX_HITMONLEE ; pokedex id
-db 50 ; base hp
+db 70 ; base hp
 db 120 ; base attack
-db 53 ; base defense
+db 103 ; base defense
 db 87 ; base speed
-db 35 ; base special
+db 85 ; base special
 db FIGHTING ; species type 1
-db FIGHTING ; species type 2
+db ROCK ; species type 2
 db 45 ; catch rate
 db 139 ; base exp yield
 INCBIN "pic/swmon/hitmonlee.pic",0,1 ; 77, sprite dimensions
@@ -14,7 +14,7 @@ dw HitmonleePicBack
 ; attacks known at lvl 0
 db DOUBLE_KICK
 db MEDITATE
-db 0
+db ROCK_THROW
 db 0
 db 0 ; growth rate
 ; learnset
