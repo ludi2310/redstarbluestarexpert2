@@ -3,9 +3,9 @@ db 30 ; base hp
 db 105 ; base attack
 db 90 ; base defense
 db 50 ; base speed
-db 25 ; base special
+db 45 ; base special
 db WATER ; species type 1
-db WATER ; species type 2
+db BUG ; species type 2
 db 225 ; catch rate
 db 115 ; base exp yield
 INCBIN "pic/swmon/krabby.pic",0,1 ; 55, sprite dimensions
@@ -13,7 +13,7 @@ dw KrabbyPicFront
 dw KrabbyPicBack
 ; attacks known at lvl 0
 db BUBBLE
-db LEER
+db CUT
 db 0
 db 0
 db 0 ; growth rate
