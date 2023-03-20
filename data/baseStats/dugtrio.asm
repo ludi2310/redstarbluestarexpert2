@@ -1,7 +1,7 @@
 db DEX_DUGTRIO ; pokedex id
-db 35 ; base hp
-db 80 ; base attack
-db 50 ; base defense
+db 55 ; base hp
+db 110 ; base attack
+db 70 ; base defense
 db 120 ; base speed
 db 70 ; base special
 db GROUND ; species type 1
@@ -12,10 +12,10 @@ INCBIN "pic/swmon/dugtrio.pic",0,1 ; 66, sprite dimensions
 dw DugtrioPicFront
 dw DugtrioPicBack
 ; attacks known at lvl 0
-db SCRATCH
-db GROWL
+db SLASH
+db BONEMERANG
 db DIG
-db 0
+db ROCK_SLIDE
 db 0 ; growth rate
 ; learnset
 	tmlearn 6,8
