@@ -14,7 +14,7 @@ dw VileplumePicBack
 ; attacks known at lvl 0
 db SWORDS_DANCE
 db SLEEP_POWDER
-db BODY_SLAM
+db SKULL_BASH
 db MEGA_DRAIN
 db 3 ; growth rate
 ; learnset
