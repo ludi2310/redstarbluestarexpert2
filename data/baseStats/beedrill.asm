@@ -1,11 +1,11 @@
 db DEX_BEEDRILL ; pokedex id
 db 65 ; base hp
-db 90 ; base attack
-db 40 ; base defense
-db 75 ; base speed
-db 45 ; base special
-db BUG ; species type 1
-db POISON ; species type 2
+db 100 ; base attack
+db 50 ; base defense
+db 105 ; base speed
+db 100 ; base special
+db POISON ; species type 1
+db ELECTRIC ; species type 2
 db 45 ; catch rate
 db 159 ; base exp yield
 INCBIN "pic/swmon/beedrill.pic",0,1 ; 77, sprite dimensions
@@ -13,8 +13,8 @@ dw BeedrillPicFront
 dw BeedrillPicBack
 ; attacks known at lvl 0
 db TWINNEEDLE
-db 0
-db 0
+db THUNDERSHOCK
+db THUNDER_WAVE
 db 0
 db 0 ; growth rate
 ; learnset
