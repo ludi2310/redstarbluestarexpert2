@@ -1,9 +1,9 @@
 db DEX_WEEZING ; pokedex id
-db 65 ; base hp
+db 85 ; base hp
 db 90 ; base attack
-db 120 ; base defense
-db 60 ; base speed
-db 85 ; base special
+db 130 ; base defense
+db 50 ; base speed
+db 95 ; base special
 db POISON ; species type 1
 db FIRE ; species type 2
 db 60 ; catch rate
