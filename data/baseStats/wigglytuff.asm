@@ -1,9 +1,9 @@
 db DEX_WIGGLYTUFF ; pokedex id
-db 140 ; base hp
-db 70 ; base attack
-db 45 ; base defense
+db 180 ; base hp
+db 90 ; base attack
+db 75 ; base defense
 db 45 ; base speed
-db 50 ; base special
+db 80 ; base special
 db NORMAL ; species type 1
 db NORMAL ; species type 2
 db 50 ; catch rate
@@ -14,7 +14,7 @@ dw WigglytuffPicBack
 ; attacks known at lvl 0
 db BLIZZARD
 db THUNDER_WAVE
-db DEFENSE_CURL
+db SOFTBOILED
 db DIZZY_PUNCH
 db 4 ; growth rate
 ; learnset
