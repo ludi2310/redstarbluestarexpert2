@@ -1,7 +1,7 @@
 db DEX_VICTREEBEL ; pokedex id
 db 80 ; base hp
 db 105 ; base attack
-db 65 ; base defense
+db 95 ; base defense
 db 70 ; base speed
 db 100 ; base special
 db GRASS ; species type 1
